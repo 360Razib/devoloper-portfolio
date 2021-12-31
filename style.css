@@ -1,13 +1,26 @@
 body{
     font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Mono', monospace;
+   
 }
 section{
     display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     
 }
 .half-with{
     width: 50%;
+    margin:50px;
 }
 .half-with img{
-    width: 75%;
+    width: 100%;
+}
+h1{
+    font-size: 45px;
+
+}
+
+h1 .name-color{
+    color: orangered;
 }
