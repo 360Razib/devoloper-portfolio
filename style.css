@@ -1,9 +1,10 @@
 body{
     font-family: 'Poppins', sans-serif;
     font-family: 'Roboto Mono', monospace;
+    margin: 0%;
    
 }
-section{
+.top-banner{
     display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
@@ -14,13 +15,32 @@ section{
     margin:50px;
 }
 .half-with img{
-    width: 100%;
+    width: 85%;
+    padding-left: 50px;
 }
 h1{
-    font-size: 45px;
+    font-size: 50px;
 
 }
 
 h1 .name-color{
     color: orangered;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(orangered, red);
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+.section2 img{
+    width: 80%;
+}
+.section2{
+    width: 50%;
+}
+.big-dream{
+    display: flex;
+    margin-top:150px;
 }
