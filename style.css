@@ -5,10 +5,13 @@ body{
    
 }
 .top-banner{
-    display: flex;
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 150px;
 }
 .half-with{
     width: 50%;
@@ -26,13 +29,14 @@ h1{
 h1 .name-color{
     color: orangered;
 }
-div a{
+.link-buttom{
     text-decoration: none;
     color: white;
     background-image: linear-gradient(orangered, red);
     padding: 10px 20px;
     border-radius: 5px;
     text-transform: uppercase;
+    font-weight: 700;
 }
 .section2 img{
     width: 80%;
@@ -41,6 +45,8 @@ div a{
     width: 50%;
 }
 .big-dream{
-    display: flex;
-    margin-top:150px;
+    background-image:url(images/big-dream-bd.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 5%;
 }
